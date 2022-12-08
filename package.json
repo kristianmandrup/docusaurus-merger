@@ -1,0 +1,34 @@
+{
+  "name": "docusaurus-merger",
+  "version": "0.1.0",
+  "description": "Merge docusaurus repositories into a single instance to be deployed",
+  "main": "src/run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "docusaurus-merge": "./bin/docusaurus-merge"
+  },
+  "keywords": [
+    "cli",
+    "docusaurus",
+    "multi",
+    "repos",
+    "monorepo",
+    "merge",
+    "combine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/docusaurus-merger"
+  },
+  "bugs": {
+    "url": "https://github.com/kristianmandrup/docusaurus-merger/issues",
+    "email": "kmandrup@gmail.com"
+  },
+  "author": "Kristian Mandrup",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs.exec": "^1.1.8"
+  }
+}

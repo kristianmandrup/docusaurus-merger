@@ -1,0 +1,17 @@
+account: https://github.com/kristianmandrup
+repositories:
+  - name: Brand one
+    repo: brand1
+    docs:
+      - docs
+      - more-docs
+    sidebars:
+      - sidebar.js
+    blogs:
+      - blog
+  - name: Brand two
+    repo: brand2
+    docs:
+      - docs
+    sidebars:
+      - sidebar.js
