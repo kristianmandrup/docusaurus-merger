@@ -2,7 +2,7 @@ import { mergeRepo } from "./shell/merge-repo.mjs";
 
 export const processRepoConfig = (repoConfig) => {
   const { url, docs, blogs } = repoConfig;
-  mergeRepo();
+  mergeRepo(url);
 };
 
 export const processRepoConfigs = (repoConfigs) => {
