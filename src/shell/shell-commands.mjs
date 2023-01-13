@@ -8,13 +8,13 @@ export const extractArchive = (name) => `tar -xf ${name}.tar -C ${name}`;
 export const createMoveCommands = (name, rootPath = "root") => {
   const command = {
     docs: (resourcePath = "docs") =>
-      `mv ${repoName}/${resourcePath} ${rootPath}/docs/${repoName}`,
+      `mv ${name}/${resourcePath} ${rootPath}/docs/${name}`,
     blog: (resourcePath = "blog") =>
-      `mv ${repoName}/${resourcePath} ${rootPath}/blogs/${repoName}`,
+      `mv ${name}/${resourcePath} ${rootPath}/blogs/${name}`,
     src: (resourcePath = "src") =>
-      `mv ${repoName}/${resourcePath} ${rootPath}/src/${repoName}`,
+      `mv ${name}/${resourcePath} ${rootPath}/src/${name}`,
     static: (resourcePath = "static") =>
-      `mv ${repoName}/${resourcePath} ${rootPath}/static/${repoName}`,
+      `mv ${name}/${resourcePath} ${rootPath}/static/${name}`,
   };
 
   return {

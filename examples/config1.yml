@@ -1,7 +1,12 @@
 account: https://github.com/kristianmandrup
+defaults:
+  branch: main
+  rootPath: ~
 repositories:
   - name: Brand one
-    repo: brand1
+    repo: 
+      name: brand1
+      branch: develop
     docs:
       - docs
       - more-docs
