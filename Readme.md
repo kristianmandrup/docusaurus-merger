@@ -11,6 +11,7 @@ The scaffold generator will generate a minimal root Docusaurus project
   /pages
   /components
 /static
+/config
 docusaurus.config.js
 ```
 
@@ -68,6 +69,7 @@ After the generator has run, the merged docusaurus structure will look as follow
   /brand1
     ...
   /brand2
+/config  
 docusaurus.config.js
 ```
 
@@ -165,7 +167,7 @@ themeConfig: {
 }
 ```
 
-## Update references
+## Normalize reference paths
 
 The navbar Items will reference the original file structure, so an intelligent find and replace will be required so that:
 
